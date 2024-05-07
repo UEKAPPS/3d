@@ -13,7 +13,7 @@ import { SectionWrapper } from '../hoc';
 // eslint-disable-next-line react/prop-types
 const ServiceCard = ({ index, title, icon }) => {
   return (
-    <Tilt className="xs:w-[250px] w-full">
+    <Tilt className="xs:min-w-[240px] w-full">
       <motion.div
         variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
         className='w-full black-black-gradient p-[1px] rounded-[20px] 
@@ -58,7 +58,7 @@ const About = () => {
         with the latest trends in the world of technology. This makes me an ideal candidate for both current and future projects.
       </motion.p>
 
-      <div className='mt-20 grid grid-rows-2 grid-cols-3 gap-32'>
+      <div className='grid grid-cols-2 md:grid-cols-3 gap-4 mt-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

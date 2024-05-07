@@ -62,8 +62,8 @@ const ComputersCanvas = () => {
       camera={{ position: [15, 3, 5], fov: 35 }}
       gl={{ preserveDrawingBuffer: true }}
     >
-      <Suspense fallback={<CanvasLoader/>}>
-        <OrbitControls 
+      <Suspense fallback={<CanvasLoader />}>
+        <OrbitControls
           enableZoom={false}
           enableRotate={true}
           maxPolarAngle={isMobile ? Math.PI / 2 : Math.PI}

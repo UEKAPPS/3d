@@ -72,14 +72,6 @@ const services = [
 
 const technologies = [
   {
-    name: "java",
-    icon: java,
-  },
-  {
-    name: "Android",
-    icon: android,
-  },
-  {
     name: "JavaScript",
     icon: javascript,
   },
@@ -92,36 +84,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Vue JS",
-    icon: vuejs,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "SQL Server",
-    icon: sqlserver,
-  },
-  {
     name: "Three JS",
     icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "archlinux",
-    icon: archlinux,
-  },
-  {
-    name: "kali",
-    icon: kali,
   },
 ];
 
